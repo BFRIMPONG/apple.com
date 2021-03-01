@@ -1,0 +1,193 @@
+body{
+    
+    margin: 0px;
+    padding: 0px;
+}
+.section{
+    display: grid;
+    width: 100%;
+    height: 100px;
+    border: 1p solid green;
+    background: greenyellow;
+    grid-template-columns: auto ;
+    border: 1px solid indigo ;
+}
+
+.header nav{
+    background: chartreuse;
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    padding: 10px; 
+    justify-content: space-around;   
+}
+.header nav li{
+    list-style-type: none;
+    /* padding: 10px 25px;  */
+
+}
+
+.header nav a{
+    text-align: center;
+    text-decoration: none;
+}
+
+.header2 {
+    margin-top: 0px;
+    width: 100%;
+    height: 80%;
+    border:1px solid chocolate;
+    background: #0071E3;
+    color: #ffffff;
+    align-content: center;   
+    
+}
+
+.header2 a{
+    padding: 12px 0;
+    color: #ffffff;
+    background: #0071E3;
+    margin-top: 0;
+    text-decoration: none;
+    margin: auto;
+    justify-content: center; 
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+.header2 p{
+    text-align: center;
+}
+
+.header3{
+    width: 100%;
+    height: 100%;
+    border:1px solid rgb(30, 144, 210);
+    
+}
+
+.header3 a{
+    color: blue;
+    text-decoration: none;
+
+}
+
+.header3 p{
+    text-align: center;
+
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    background-color: blue;
+  
+ 
+    
+
+
+}.grid-item{
+    display: grid;
+    background-color: rgb(237, 243, 231);
+    border: 1px solid black;
+    /* font-size: 50px; */
+    grid-column: 1/3;
+    
+}
+
+.item{
+    display: grid;
+    grid-gap: 50px;
+    border: 1px solid tomato;
+    column-gap: 10px;
+    row-gap: 50px;
+    background-color: yellow;
+    height: 450px;
+}
+
+
+.wrapper{
+    width: 100%;
+    background-color: black;
+    height: 800px;
+}
+.section1{
+    width: 100%;
+    border: solid 1px yellow;
+    height: 600px;
+    background-color: white; 
+    background-image: url(../img/iphone_12_us__fo0stbby242m_medium.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position-y:700px;
+
+}
+
+/* .img1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    border: 1px solid rgb(0, 0, 0);
+    background-size: cover;
+    background-position: center center;
+
+
+}
+.imageWrapper{
+    width: 100%;
+    height: 700px;
+    border: solid 1px red;
+}
+.img1_1{
+   
+    
+} */
+
+
+.first_text{
+    margin: auto;
+    top: 0;
+    border: 1px solid black;
+    width: 100%;
+    font-size: 30px;
+    height: 250px;
+    text-align: center;
+
+}
+.first_text a{
+    text-decoration: none;
+    color: black;    
+}
+
+.section2{
+    width: 100%;
+    border: solid 1px yellow;
+    height: 600px;
+    background-color: white; 
+    background-image: url(../img/iphone_12_pro_us__e5oyysg4k0ya_medium.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position-y:700px;
+}
+
+.first_text1{
+    margin: auto;
+    top: 0;
+    border: 1px solid black;
+    width: 100%;
+    font-size: 30px;
+    height: 300px;
+    text-align: center;
+
+}
+.first_text1 a{
+    text-decoration: none;
+    color: #ffffff;    
+}
